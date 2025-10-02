@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import CodeEditor from './components/CodeEditor';
 import CFGVisualizer from './components/CFGVisualizer';
 import { CFGBuilder, extractFunctionsFromAST } from './utils/cfgBuilder';
-import parser from '@solidity-parser/parser';
+import * as parser from '@solidity-parser/parser/dist/index.umd.js';
 import './App.css';
 
 const defaultCode = `// SPDX-License-Identifier: MIT
