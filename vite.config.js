@@ -18,6 +18,7 @@ export default defineConfig({
   server: {
     port: 3000
   },
+  base: process.env.GITHUB_PAGES ? '/NT547/' : '/',
   define: {
     '__filename': JSON.stringify(''),
     '__dirname': JSON.stringify('')
