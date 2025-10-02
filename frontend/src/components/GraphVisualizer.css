@@ -1,0 +1,85 @@
+.graph-visualizer-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+}
+
+.graph-header {
+  height: 40px;
+  background-color: #2d2d30;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-bottom: 1px solid #3e3e42;
+}
+
+.graph-header h3 {
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.graph-content {
+  flex: 1;
+  position: relative;
+}
+
+.custom-node {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.custom-node:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.node-label {
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.node-code {
+  font-size: 10px;
+  font-family: monospace;
+  opacity: 0.9;
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #888;
+  font-size: 16px;
+  padding: 40px;
+  text-align: center;
+}
+
+.react-flow__node.selected .custom-node {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: #fff !important;
+}
