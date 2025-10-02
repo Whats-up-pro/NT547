@@ -1,49 +1,50 @@
 import React from 'react';
-import Editor from '@monaco-editor/react';
 import './CodeEditor.css';
 
 const CodeEditor = ({ code, onChange, highlightedLines }) => {
-  const editorRef = React.useRef(null);
-
-  const handleEditorDidMount = (editor) => {
-    editorRef.current = editor;
-  };
+  const [lineNumbers, setLineNumbers] = React.useState([]);
+  const textareaRef = React.useRef(null);
 
   React.useEffect(() => {
-    if (editorRef.current && highlightedLines) {
-      const decorations = highlightedLines.map(line => ({
-        range: new window.monaco.Range(line, 1, line, 1),
-        options: {
-          isWholeLine: true,
-          className: 'highlighted-line',
-          glyphMarginClassName: 'highlighted-line-glyph'
-        }
-      }));
-      
-      editorRef.current.deltaDecorations([], decorations);
+    if (code) {
+      const lines = code.split('\n');
+      setLineNumbers(lines.map((_, i) => i + 1));
     }
-  }, [highlightedLines]);
+  }, [code]);
+
+  const handleChange = (e) => {
+    if (onChange) {
+      onChange(e.target.value);
+    }
+  };
+
+  const getLineClass = (lineNumber) => {
+    if (highlightedLines && highlightedLines.includes(lineNumber)) {
+      return 'line-number highlighted';
+    }
+    return 'line-number';
+  };
 
   return (
     <div className="code-editor-container">
       <div className="editor-header">
         <h3>Solidity Code Editor</h3>
       </div>
-      <Editor
-        height="calc(100% - 40px)"
-        defaultLanguage="sol"
-        value={code}
-        onChange={onChange}
-        onMount={handleEditorDidMount}
-        theme="vs-dark"
-        options={{
-          minimap: { enabled: false },
-          fontSize: 14,
-          lineNumbers: 'on',
-          scrollBeyondLastLine: false,
-          automaticLayout: true,
-        }}
-      />
+      <div className="editor-content">
+        <div className="line-numbers">
+          {lineNumbers.map(num => (
+            <div key={num} className={getLineClass(num)}>{num}</div>
+          ))}
+        </div>
+        <textarea
+          ref={textareaRef}
+          className="code-textarea"
+          value={code}
+          onChange={handleChange}
+          spellCheck={false}
+          wrap="off"
+        />
+      </div>
     </div>
   );
 };

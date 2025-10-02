@@ -1,4 +1,4 @@
-import parser from '@solidity-parser/parser';
+import * as parser from '@solidity-parser/parser';
 
 /**
  * Build Control Flow Graph from Solidity AST
