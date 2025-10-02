@@ -56,23 +56,47 @@ cd NT547
 ```bash
 cd backend
 pip install -r requirements.txt
+```
+
+3. **Setup Frontend**
+```bash
+cd ../frontend
+npm install
+```
+
+### Running the Application
+
+#### Option 1: Using Scripts (Recommended for Windows)
+
+**On Windows:**
+- Double-click `start-backend.bat` to start the backend
+- Double-click `start-frontend.bat` to start the frontend (in a new window)
+
+**On macOS/Linux:**
+```bash
+./start-backend.sh &
+./start-frontend.sh
+```
+
+#### Option 2: Manual Start
+
+**Terminal 1 - Backend:**
+```bash
+cd backend
 python app.py
 ```
 
-The backend will run on `http://localhost:5000`
-
-3. **Setup Frontend** (in a new terminal)
+**Terminal 2 - Frontend:**
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
-
-The frontend will run on `http://localhost:3000`
 
 4. **Open your browser**
 
 Navigate to `http://localhost:3000` to use the application.
+
+For detailed setup instructions, see [SETUP_GUIDE.md](SETUP_GUIDE.md)
 
 ## Usage
 
