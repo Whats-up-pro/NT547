@@ -1,0 +1,660 @@
+{
+  "score": 0,
+  "summary": {
+    "bySeverity": {
+      "critical": 0,
+      "high": 49,
+      "info": 0,
+      "low": 0,
+      "medium": 31
+    },
+    "byType": {
+      "Missing Access Control": 49,
+      "Timestamp Dependence": 1,
+      "tx.origin Authentication": 30
+    },
+    "total": 80
+  },
+  "vulnerabilities": [
+    {
+      "description": "Using tx.origin for authentication on line 50",
+      "line": 50,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 59",
+      "line": 59,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 71",
+      "line": 71,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 83",
+      "line": 83,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 88",
+      "line": 88,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 92",
+      "line": 92,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 97",
+      "line": 97,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 103",
+      "line": 103,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 108",
+      "line": 108,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 114",
+      "line": 114,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 120",
+      "line": 120,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 126",
+      "line": 126,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 138",
+      "line": 138,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 149",
+      "line": 149,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 157",
+      "line": 157,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 168",
+      "line": 168,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 179",
+      "line": 179,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 192",
+      "line": 192,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 205",
+      "line": 205,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 210",
+      "line": 210,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 216",
+      "line": 216,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 222",
+      "line": 222,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 227",
+      "line": 227,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 240",
+      "line": 240,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 264",
+      "line": 264,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 275",
+      "line": 275,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 289",
+      "line": 289,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 300",
+      "line": 300,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 312",
+      "line": 312,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Using tx.origin for authentication on line 319",
+      "line": 319,
+      "nodeId": null,
+      "recommendation": "Use msg.sender instead of tx.origin for authorization checks",
+      "severity": "medium",
+      "type": "tx.origin Authentication"
+    },
+    {
+      "description": "Timestamp dependence on line 284 - miners can manipulate timestamps",
+      "line": 284,
+      "nodeId": null,
+      "recommendation": "Avoid using block.timestamp for critical logic. Use block.number or oracle services.",
+      "severity": "medium",
+      "type": "Timestamp Dependence"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 9",
+      "line": 9,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 17",
+      "line": 17,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 22",
+      "line": 22,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 27",
+      "line": 27,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 32",
+      "line": 32,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 36",
+      "line": 36,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 39",
+      "line": 39,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 49",
+      "line": 49,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 58",
+      "line": 58,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 67",
+      "line": 67,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 70",
+      "line": 70,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 76",
+      "line": 76,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 82",
+      "line": 82,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 87",
+      "line": 87,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 91",
+      "line": 91,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 96",
+      "line": 96,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 102",
+      "line": 102,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 107",
+      "line": 107,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 113",
+      "line": 113,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 119",
+      "line": 119,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 125",
+      "line": 125,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 137",
+      "line": 137,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 142",
+      "line": 142,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 148",
+      "line": 148,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 152",
+      "line": 152,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 156",
+      "line": 156,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 162",
+      "line": 162,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 167",
+      "line": 167,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 173",
+      "line": 173,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 178",
+      "line": 178,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 184",
+      "line": 184,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 191",
+      "line": 191,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 204",
+      "line": 204,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 209",
+      "line": 209,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 215",
+      "line": 215,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 221",
+      "line": 221,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 226",
+      "line": 226,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 239",
+      "line": 239,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 263",
+      "line": 263,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 267",
+      "line": 267,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 274",
+      "line": 274,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 279",
+      "line": 279,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 288",
+      "line": 288,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 293",
+      "line": 293,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 299",
+      "line": 299,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 304",
+      "line": 304,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 311",
+      "line": 311,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 315",
+      "line": 315,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 318",
+      "line": 318,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    }
+  ]
+}

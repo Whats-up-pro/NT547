@@ -1,0 +1,731 @@
+{
+  "score": 0,
+  "summary": {
+    "bySeverity": {
+      "critical": 0,
+      "high": 86,
+      "info": 0,
+      "low": 0,
+      "medium": 3
+    },
+    "byType": {
+      "DoS with Block Gas Limit": 3,
+      "Missing Access Control": 86
+    },
+    "total": 89
+  },
+  "vulnerabilities": [
+    {
+      "description": "Public/external state-changing function without access control on line 112",
+      "line": 112,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 115",
+      "line": 115,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 118",
+      "line": 118,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 129",
+      "line": 129,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 137",
+      "line": 137,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 145",
+      "line": 145,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 160",
+      "line": 160,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 170",
+      "line": 170,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 178",
+      "line": 178,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 204",
+      "line": 204,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 207",
+      "line": 207,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 210",
+      "line": 210,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 213",
+      "line": 213,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 292",
+      "line": 292,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 297",
+      "line": 297,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 302",
+      "line": 302,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 307",
+      "line": 307,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 312",
+      "line": 312,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 326",
+      "line": 326,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 335",
+      "line": 335,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 339",
+      "line": 339,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 354",
+      "line": 354,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 363",
+      "line": 363,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 376",
+      "line": 376,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 384",
+      "line": 384,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 396",
+      "line": 396,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 404",
+      "line": 404,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 408",
+      "line": 408,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 431",
+      "line": 431,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 437",
+      "line": 437,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 442",
+      "line": 442,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 451",
+      "line": 451,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 455",
+      "line": 455,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 464",
+      "line": 464,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 470",
+      "line": 470,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 479",
+      "line": 479,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 495",
+      "line": 495,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 524",
+      "line": 524,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 552",
+      "line": 552,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 583",
+      "line": 583,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 608",
+      "line": 608,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 614",
+      "line": 614,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 624",
+      "line": 624,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 649",
+      "line": 649,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 678",
+      "line": 678,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 692",
+      "line": 692,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 698",
+      "line": 698,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 704",
+      "line": 704,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 714",
+      "line": 714,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 723",
+      "line": 723,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 740",
+      "line": 740,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 753",
+      "line": 753,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 758",
+      "line": 758,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 765",
+      "line": 765,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 769",
+      "line": 769,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 777",
+      "line": 777,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 782",
+      "line": 782,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 790",
+      "line": 790,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 795",
+      "line": 795,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 803",
+      "line": 803,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 808",
+      "line": 808,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 822",
+      "line": 822,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 833",
+      "line": 833,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 848",
+      "line": 848,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 863",
+      "line": 863,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 867",
+      "line": 867,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 875",
+      "line": 875,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 879",
+      "line": 879,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 887",
+      "line": 887,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 891",
+      "line": 891,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 898",
+      "line": 898,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 903",
+      "line": 903,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 911",
+      "line": 911,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 916",
+      "line": 916,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 928",
+      "line": 928,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 938",
+      "line": 938,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 956",
+      "line": 956,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 964",
+      "line": 964,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 968",
+      "line": 968,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 989",
+      "line": 989,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 995",
+      "line": 995,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 1003",
+      "line": 1003,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 1008",
+      "line": 1008,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 1026",
+      "line": 1026,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 1034",
+      "line": 1034,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 1039",
+      "line": 1039,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Loop starting at line 345 contains external call - potential gas limit DoS",
+      "line": 345,
+      "nodeId": null,
+      "recommendation": "Avoid loops with external calls. Use pull over push pattern.",
+      "severity": "medium",
+      "type": "DoS with Block Gas Limit"
+    },
+    {
+      "description": "Loop starting at line 427 contains external call - potential gas limit DoS",
+      "line": 427,
+      "nodeId": null,
+      "recommendation": "Avoid loops with external calls. Use pull over push pattern.",
+      "severity": "medium",
+      "type": "DoS with Block Gas Limit"
+    },
+    {
+      "description": "Loop starting at line 438 contains external call - potential gas limit DoS",
+      "line": 438,
+      "nodeId": null,
+      "recommendation": "Avoid loops with external calls. Use pull over push pattern.",
+      "severity": "medium",
+      "type": "DoS with Block Gas Limit"
+    }
+  ]
+}

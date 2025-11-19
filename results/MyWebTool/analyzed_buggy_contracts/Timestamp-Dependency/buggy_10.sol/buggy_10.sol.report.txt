@@ -1,0 +1,99 @@
+{
+  "score": 10,
+  "summary": {
+    "bySeverity": {
+      "critical": 0,
+      "high": 8,
+      "info": 0,
+      "low": 0,
+      "medium": 2
+    },
+    "byType": {
+      "Missing Access Control": 8,
+      "Timestamp Dependence": 2
+    },
+    "total": 10
+  },
+  "vulnerabilities": [
+    {
+      "description": "Timestamp dependence on line 9 - miners can manipulate timestamps",
+      "line": 9,
+      "nodeId": null,
+      "recommendation": "Avoid using block.timestamp for critical logic. Use block.number or oracle services.",
+      "severity": "medium",
+      "type": "Timestamp Dependence"
+    },
+    {
+      "description": "Timestamp dependence on line 51 - miners can manipulate timestamps",
+      "line": 51,
+      "nodeId": null,
+      "recommendation": "Avoid using block.timestamp for critical logic. Use block.number or oracle services.",
+      "severity": "medium",
+      "type": "Timestamp Dependence"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 8",
+      "line": 8,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 13",
+      "line": 13,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 30",
+      "line": 30,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 38",
+      "line": 38,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 43",
+      "line": 43,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 50",
+      "line": 50,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 54",
+      "line": 54,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    },
+    {
+      "description": "Public/external state-changing function without access control on line 60",
+      "line": 60,
+      "nodeId": null,
+      "recommendation": "Add access control modifier or require statement to restrict access",
+      "severity": "high",
+      "type": "Missing Access Control"
+    }
+  ]
+}

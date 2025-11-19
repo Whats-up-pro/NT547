@@ -1,0 +1,15 @@
+{
+  "score": 100,
+  "summary": {
+    "bySeverity": {
+      "critical": 0,
+      "high": 0,
+      "info": 0,
+      "low": 0,
+      "medium": 0
+    },
+    "byType": {},
+    "total": 0
+  },
+  "vulnerabilities": []
+}
